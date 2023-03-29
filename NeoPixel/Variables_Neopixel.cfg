@@ -1,0 +1,176 @@
+# Variables
+
+[gcode_macro _sb_vars]
+
+variable_colors: {
+# Couleur de la barre:
+         'barre': {
+            'busy': {'r': 0.8, 'g': 0.0, 'b': 0.0, 'w': 0.0},  
+            'cleaning': {'r': 0.0, 'g': 0.02, 'b': 0.5, 'w': 0.0},  
+            'calibrating_z': {'r': 0.8, 'g': 0., 'b': 0.35, 'w': 0.0},  
+            'heating': {'r': 0.3, 'g': 0.18, 'b': 0.0, 'w': 0.0},  
+            'homing': {'r': 0.0, 'g': 0.6, 'b': 0.2, 'w': 0.0},  
+            'leveling': {'r': 0.5, 'g': 0.1, 'b': 0.4, 'w': 0.0},  
+            'meshing': {'r': 0.2, 'g': 1.0, 'b': 0.0, 'w': 0.0},  
+            'off': {'r': 0.0, 'g': 0.0, 'b': 0.0, 'w': 0.0},  
+            'printing': {'r': 1.0, 'g': 0.0, 'b': 0.0, 'w': 0.0},  
+            'standby': {'r': 0.01, 'g': 0.01, 'b': 0.01, 'w': 0.0},  
+            'print': {'r': 0.0, 'g': 0.0, 'b': 0.7, 'w': 0.0},
+            'rouge': {'r':0.8, 'g':0.0, 'b':0.0, 'w':0.0},
+            'vert': {'r':0.0, 'g':0.8, 'b':0.00, 'w':0.0},
+            'bleu': {'r':0.0, 'g':0.0, 'b':0.8, 'w':0.0},
+            'violet': {'r':0.4, 'g':0.0, 'b':0.8, 'w':0.0},
+            'mauve': {'r':0.9, 'g':0.0, 'b':0.9, 'w':0.0},
+            'jaune': {'r':0.9, 'g':0.9, 'b':0.0, 'w':0.0},
+            'cyan': {'r':0.3, 'g':0.2, 'b':0.6, 'w':0.0},
+            'on': {'r':0.8, 'g':0.8, 'b':0.8, 'w':0.0},  
+            'glace': {'r':0.0, 'g':0.8, 'b':0.9, 'w':0.2},
+            'feu': {'r':1.0, 'g':0.27, 'b':0.0, 'w':0.2},
+         },
+ # Couleur du logo Z
+        'logo': {
+            'busy': {'r': 0.8, 'g': 0.0, 'b': 0.0, 'w': 0.0},
+            'cleaning': {'r': 0.0, 'g': 0.02, 'b': 0.5, 'w': 0.0},
+            'calibrating_z': {'r': 0.8, 'g': 0., 'b': 0.35, 'w': 0.0},
+            'heating': {'r': 0.3, 'g': 0.18, 'b': 0.0, 'w': 0.0},
+            'homing': {'r': 0.0, 'g': 0.6, 'b': 0.2, 'w': 0.0},
+            'leveling': {'r': 0.5, 'g': 0.1, 'b': 0.4, 'w': 0.0},
+            'meshing': {'r': 0.2, 'g': 1.0, 'b': 0.0, 'w': 0.0},
+            'off': {'r': 0.0, 'g': 0.0, 'b': 0.0, 'w': 0.0},
+            'on': {'r': 1.0, 'g': 1.0, 'b': 1.0, 'w':0.0},
+            'printing': {'r': 1.0, 'g': 0.0, 'b': 0.0, 'w': 0.0},
+            'standby': {'r': 0.01, 'g': 0.01, 'b': 0.01, 'w': 0.0},
+            'print': {'r':0.0, 'g':0.0, 'b':0.55, 'w':0.0},
+            'rouge': {'r':0.8, 'g':0.0, 'b':0.0, 'w':0.0},
+            'vert': {'r':0.0, 'g':0.8, 'b':0.00, 'w':0.0},
+            'bleu': {'r':0.0, 'g':0.0, 'b':0.8, 'w':0.0},
+            'violet': {'r':0.4, 'g':0.0, 'b':0.8, 'w':0.0},
+            'mauve': {'r':0.9, 'g':0.0, 'b':0.9, 'w':0.0},
+            'jaune': {'r':0.9, 'g':0.9, 'b':0.0, 'w':0.0},
+            'cyan': {'r':0.3, 'g':0.2, 'b':0.6, 'w':0.0},
+            'glace': {'r':0.0, 'g':0.8, 'b':0.9, 'w':0.2},
+            'feu': {'r':1.0, 'g':0.27, 'b':0.0, 'w':0.2},
+        },
+# Couleur de la buse
+        'nozzle': { 
+            'heating': {'r': 0.8, 'g': 0.35, 'b': 0.0, 'w':0.0},
+            'off': {'r': 0.0, 'g': 0.0, 'b': 0.0, 'w': 0.0},
+            'on': {'r': 1.0, 'g': 1.0, 'b': 1.0, 'w':0.0}, 
+            'standby': {'r': 0.6, 'g': 0.0, 'b': 0.0, 'w':0.0},
+            'print': {'r': 0.8, 'g': 0.8, 'b': 0.8, 'w':0.0},
+            'rouge': {'r':0.8, 'g':0.0, 'b':0.0, 'w':0.0},
+            'vert': {'r':0.0, 'g':0.8, 'b':0.00, 'w':0.0},
+            'bleu': {'r':0.0, 'g':0.0, 'b':0.8, 'w':0.0},
+            'violet': {'r':0.4, 'g':0.0, 'b':0.8, 'w':0.0},
+            'mauve': {'r':0.9, 'g':0.0, 'b':0.9, 'w':0.0},
+            'jaune': {'r':0.9, 'g':0.9, 'b':0.0, 'w':0.0},
+            'cyan': {'r':0.3, 'g':0.2, 'b':0.6, 'w':0.0},
+            'leveling': {'r': 0.5, 'g': 0.1, 'b': 0.4, 'w': 0.0},
+            'glace': {'r':0.0, 'g':0.8, 'b':0.9, 'w':0.2},
+            'feu': {'r':1.0, 'g':0.27, 'b':0.0, 'w':0.2},
+        },
+# Couleur en fonction Température:
+        'thermal': {
+            'hot': {'r': 1.0, 'g': 0.0, 'b': 0.0, 'w': 0.0},
+            'cold': {'r': 0.3, 'g': 0.0, 'b': 0.3, 'w': 0.0}
+        },
+    }
+####################################################################
+
+# Noms des differentes Variables:
+
+# Le nom de la chaîne de LED adressables qui contient le(s) logo(s) LED.
+variable_logo_led_name:         "sb_leds" 
+
+# Numéro des LED séparés par des virgules dans le logo.
+variable_logo_idx:              "1,2,3,4,5,6,7,8" 
+
+# Le nom de la chaîne de LED adressables qui contient la ou les LED de la buse.
+variable_nozzle_led_name:       "sb_leds"
+ 
+# Numéro des LED séparés par des virgules dans la buse.
+variable_nozzle_idx:            "9,10"
+
+# Le nom de la chaîne de LED adressables qui contient Barre LED.
+variable_barre_led_name:         "barre_leds" 
+
+# Numéro des LED séparés par des virgules dans la barre.
+variable_barre_idx:              "1,2,3,4,5,6,7,8,9,10" 
+
+# Températures auxquelles le refroidissement sera considéré comme complet:
+variable_thermal_config: {
+        'extruder': {
+            'cool_temp': 40,
+            'leds': 'logo',
+        },
+        'heater_bed': {
+            'cool_temp': 50,
+            'leds': 'nozzle',
+        },
+    }
+#########################################################################################################################
+######################################## ATTENTION NE PAS TOUCHER #######################################################
+#########################################################################################################################
+gcode:
+
+[gcode_macro _set_sb_leds]
+gcode:
+    {% set red = params.RED|default(0)|float %}
+    {% set green = params.GREEN|default(0)|float %}
+    {% set blue = params.BLUE|default(0)|float %}
+    {% set white = params.WHITE|default(0)|float %}
+    {% set led = params.LED|string %}
+    {% set idx = (params.IDX|string).split(',') %}
+    {% set transmit_last = params.TRANSMIT|default(1) %}
+    
+    {% for led_index in idx %}
+        {% set transmit=transmit_last if loop.last else 0 %}
+        set_led led={led} red={red} green={green} blue={blue} white={white} index={led_index} transmit={transmit}
+    {% endfor %}
+
+[gcode_macro _set_sb_leds_by_name]
+gcode:
+    {% set leds_name = params.LEDS %}
+    {% set color_name = params.COLOR %}
+    {% set color = printer["gcode_macro _sb_vars"].colors[leds_name][color_name] %}
+    {% set led = printer["gcode_macro _sb_vars"][leds_name + "_led_name"] %}
+    {% set idx = printer["gcode_macro _sb_vars"][leds_name + "_idx"] %}
+    {% set transmit = params.TRANSMIT|default(1) %}
+
+    _set_sb_leds led={led} red={color.r} green={color.g} blue={color.b} white={color.w} idx="{idx}" transmit={transmit}
+
+[gcode_macro _set_logo_leds]
+gcode:
+    {% set red = params.RED|default(0)|float %}
+    {% set green = params.GREEN|default(0)|float %}
+    {% set blue = params.BLUE|default(0)|float %}
+    {% set white = params.WHITE|default(0)|float %}
+    {% set led = printer["gcode_macro _sb_vars"].logo_led_name %}
+    {% set idx = printer["gcode_macro _sb_vars"].logo_idx %}
+    {% set transmit=params.TRANSMIT|default(1) %}
+
+    _set_sb_leds led={led} red={red} green={green} blue={blue} white={white} idx="{idx}" transmit={transmit}
+
+[gcode_macro _set_nozzle_leds]
+gcode:
+    {% set red = params.RED|default(0)|float %}
+    {% set green = params.GREEN|default(0)|float %}
+    {% set blue = params.BLUE|default(0)|float %}
+    {% set white = params.WHITE|default(0)|float %}
+    {% set led = printer["gcode_macro _sb_vars"].nozzle_led_name %}
+    {% set idx = printer["gcode_macro _sb_vars"].nozzle_idx %}
+    {% set transmit=params.TRANSMIT|default(1) %}
+
+    _set_sb_leds led={led} red={red} green={green} blue={blue} white={white} idx="{idx}" transmit={transmit}
+
+[gcode_macro _set_barre_leds]
+gcode:
+    {% set red = params.RED|default(0)|float %}
+    {% set green = params.GREEN|default(0)|float %}
+    {% set blue = params.BLUE|default(0)|float %}
+    {% set white = params.WHITE|default(0)|float %}
+    {% set led = printer["gcode_macro _sb_vars"].barre_led_name %}
+    {% set idx = printer["gcode_macro _sb_vars"].barre_idx %}
+    {% set transmit=params.TRANSMIT|default(1) %}
+
+    _set_sb_leds led={led} red={red} green={green} blue={blue} white={white} idx="{idx}" transmit={transmit}
