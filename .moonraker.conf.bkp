@@ -128,12 +128,12 @@ managed_services = klipper moonraker
 subscriptions = 
 	mainsail
 
-[webcam my_camera_name]
+[webcam PiZero]
 location = printer
 service = mjpegstreamer
 target_fps = 15
-stream_url = http://192.168.1.57/webcam?action=stream
-snapshot_url = http://192.168.1.57/webcam?action=stream
+stream_url = http://192.168.1.57/
+snapshot_url = http://192.168.1.57/
 flip_horizontal = False
 flip_vertical = False
 rotation = 0
