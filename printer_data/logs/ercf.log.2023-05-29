@@ -1,0 +1,4 @@
+12:42:20 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -3985.4, 'headroom': -3980.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+12:51:45 - - TRACE: Determined print status as: complete from print_stats
+12:59:14 - - TRACE: Determined print status as: printing from print_stats
+12:59:14 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}

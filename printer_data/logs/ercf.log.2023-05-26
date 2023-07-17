@@ -1,0 +1,71 @@
+12:50:29 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -6075.0, 'headroom': -6069.5, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+09:03:05 - - TRACE: Determined print status as: standby from print_stats
+09:06:11 - - TRACE: Determined print status as: standby from print_stats
+09:08:04 - - TRACE: Determined print status as: printing from print_stats
+09:08:04 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+09:30:30 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -754.9, 'headroom': -749.6, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+10:30:41 - - TRACE: Determined print status as: standby from print_stats
+10:40:51 - - TRACE: Determined print status as: standby from print_stats
+10:40:53 - - TRACE: Determined print status as: printing from print_stats
+10:40:53 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:02:42 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -938.5, 'headroom': -933.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:13:29 - - TRACE: Determined print status as: standby from print_stats
+11:16:32 - - TRACE: Determined print status as: printing from print_stats
+11:16:32 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:26:24 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -147.2, 'headroom': -141.7, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:34:04 - - TRACE: Determined print status as: complete from print_stats
+11:38:50 - - TRACE: Determined print status as: standby from print_stats
+11:41:14 - - TRACE: Determined print status as: printing from print_stats
+11:41:14 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:51:05 - DEBUG: ERCF_CANCEL_PRINT wrapper called
+11:51:05 - DEBUG: Lifting toolhead 5.0mm
+11:51:15 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -125.5, 'headroom': -125.5, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:51:54 - - TRACE: Determined print status as: printing from print_stats
+11:51:54 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+12:00:02 - DEBUG: ERCF_CANCEL_PRINT wrapper called
+12:00:02 - DEBUG: Lifting toolhead 5.0mm
+12:00:13 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -289.3, 'headroom': -289.3, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+12:00:15 - - TRACE: Determined print status as: standby from print_stats
+12:00:48 - - TRACE: Determined print status as: printing from print_stats
+12:00:48 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+12:44:59 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -4730.8, 'headroom': -4725.4, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+01:06:09 - - TRACE: Determined print status as: standby from print_stats
+01:08:46 - - TRACE: Determined print status as: printing from print_stats
+01:08:46 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+01:56:40 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -4730.7, 'headroom': -4725.4, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+10:41:03 - - TRACE: Determined print status as: standby from print_stats
+10:42:29 - - TRACE: Determined print status as: standby from print_stats
+10:45:14 - - TRACE: Determined print status as: standby from print_stats
+10:46:37 - - TRACE: Determined print status as: standby from print_stats
+10:51:34 - - TRACE: Determined print status as: standby from print_stats
+10:52:50 - - TRACE: Determined print status as: standby from print_stats
+10:56:46 - - TRACE: Determined print status as: printing from print_stats
+10:56:46 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:02:04 - DEBUG: ERCF_CANCEL_PRINT wrapper called
+11:02:04 - DEBUG: Lifting toolhead 5.0mm
+11:02:12 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -60.7, 'headroom': -60.7, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:03:04 - - TRACE: Determined print status as: printing from print_stats
+11:03:04 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:09:08 - DEBUG: ERCF_CANCEL_PRINT wrapper called
+11:09:08 - DEBUG: Lifting toolhead 5.0mm
+11:09:15 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -75.3, 'headroom': -75.3, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:12:13 - - TRACE: Determined print status as: printing from print_stats
+11:12:13 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:21:28 - DEBUG: ERCF_CANCEL_PRINT wrapper called
+11:21:28 - DEBUG: Lifting toolhead 5.0mm
+11:21:38 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -414.1, 'headroom': -414.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:21:47 - - TRACE: Determined print status as: standby from print_stats
+11:21:51 - - TRACE: Determined print status as: printing from print_stats
+11:21:51 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:26:59 - DEBUG: ERCF_CANCEL_PRINT wrapper called
+11:26:59 - DEBUG: Lifting toolhead 5.0mm
+11:27:09 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -77.9, 'headroom': -77.9, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:27:15 - - TRACE: Determined print status as: standby from print_stats
+11:28:08 - - TRACE: Determined print status as: standby from print_stats
+11:28:52 - - TRACE: Determined print status as: printing from print_stats
+11:28:52 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:35:22 - DEBUG: ERCF_CANCEL_PRINT wrapper called
+11:35:22 - DEBUG: Lifting toolhead 5.0mm
+11:35:32 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -144.2, 'headroom': -144.2, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+11:35:49 - - TRACE: Determined print status as: printing from print_stats
+11:35:49 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}

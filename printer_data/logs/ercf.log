@@ -1,0 +1,54 @@
+10:04:11 - DEBUG: No toolhead sensor detected, forcing 'home_to_extruder: 1'
+10:04:11 - DEBUG: Loaded persisted ERCF state, level: 2
+10:04:11 Warning: Some persisted state was ignored because it contained errors:
+         Incorrect number of gates specified in ercf_selector_offsets
+10:04:12 Warning: Error booting up ERCF: '>' not supported between instances of 'float' and 'NoneType'
+10:05:27 - DEBUG: ERCF Shutdown
+10:09:47 - DEBUG: No toolhead sensor detected, forcing 'home_to_extruder: 1'
+10:09:47 - DEBUG: Loaded persisted ERCF state, level: 2
+10:09:47 Warning: Some persisted state was ignored because it contained errors:
+         Incorrect number of gates specified in ercf_selector_offsets
+10:09:47 - DEBUG: ERCF Shutdown
+10:09:53 - DEBUG: No toolhead sensor detected, forcing 'home_to_extruder: 1'
+10:09:53 - DEBUG: Loaded persisted ERCF state, level: 2
+10:09:53 Warning: Some persisted state was ignored because it contained errors:
+         Incorrect number of gates specified in ercf_selector_offsets
+10:09:55 Warning: Error booting up ERCF: '>' not supported between instances of 'float' and 'NoneType'
+10:10:47 - - TRACE: Determined print status as: standby from print_stats
+10:10:48 - DEBUG: ERCF Shutdown
+10:10:54 - DEBUG: No toolhead sensor detected, forcing 'home_to_extruder: 1'
+10:10:54 - DEBUG: Loaded persisted ERCF state, level: 2
+10:10:54 Warning: Some persisted state was ignored because it contained errors:
+         Incorrect number of gates specified in ercf_selector_offsets
+10:10:55 Warning: Error booting up ERCF: '>' not supported between instances of 'float' and 'NoneType'
+10:12:29 - DEBUG: ERCF Shutdown
+10:12:35 - DEBUG: No toolhead sensor detected, forcing 'home_to_extruder: 1'
+10:12:35 - DEBUG: Loaded persisted ERCF state, level: 2
+10:12:35 Warning: Some persisted state was ignored because it contained errors:
+         Incorrect number of gates specified in ercf_selector_offsets
+10:12:37 Warning: Error booting up ERCF: '>' not supported between instances of 'float' and 'NoneType'
+10:13:37 - DEBUG: ERCF Shutdown
+10:13:42 - DEBUG: No toolhead sensor detected, forcing 'home_to_extruder: 1'
+10:13:42 - DEBUG: Loaded persisted ERCF state, level: 2
+10:13:42 Warning: Some persisted state was ignored because it contained errors:
+         Incorrect number of gates specified in ercf_selector_offsets
+10:13:44 Warning: Error booting up ERCF: '>' not supported between instances of 'float' and 'NoneType'
+10:14:04 - DEBUG: ERCF Shutdown
+10:14:48 - DEBUG: No toolhead sensor detected, forcing 'home_to_extruder: 1'
+10:14:48 - DEBUG: Loaded persisted ERCF state, level: 2
+10:14:48 Warning: Some persisted state was ignored because it contained errors:
+         Incorrect number of gates specified in ercf_selector_offsets
+10:14:49 Warning: Error booting up ERCF: '>' not supported between instances of 'float' and 'NoneType'
+10:18:26 - - TRACE: Determined print status as: standby from print_stats
+10:18:27 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True, 'flow_rate': 0}
+10:19:33 - - TRACE: Determined print status as: standby from print_stats
+10:19:48 - - TRACE: Determined print status as: standby from print_stats
+10:22:02 - - TRACE: Determined print status as: standby from print_stats
+10:22:03 - - TRACE: Determined print status as: standby from print_stats
+10:23:27 - - TRACE: Determined print status as: standby from print_stats
+10:26:00 - - TRACE: Determined print status as: printing from print_stats
+10:26:00 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True, 'flow_rate': 0}
+10:39:42 - DEBUG: ERCF_CANCEL_PRINT wrapper called
+10:39:42 - DEBUG: Lifting toolhead 5.0mm
+10:39:54 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -286.1, 'headroom': -283.6, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True, 'flow_rate': 0}
+10:44:33 - DEBUG: ERCF Shutdown

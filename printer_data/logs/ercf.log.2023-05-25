@@ -1,0 +1,40 @@
+12:51:17 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -2843.0, 'headroom': -2837.5, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+08:31:40 - DEBUG: No toolhead sensor detected, forcing 'home_to_extruder: 1'
+08:31:40 - DEBUG: Loaded persisted ERCF state, level: 2
+08:31:41 Warning: Error booting up ERCF: '>' not supported between instances of 'float' and 'NoneType'
+02:30:54 - DEBUG: ERCF Shutdown
+02:31:06 - DEBUG: No toolhead sensor detected, forcing 'home_to_extruder: 1'
+02:31:06 - DEBUG: Loaded persisted ERCF state, level: 2
+02:31:08 Warning: Error booting up ERCF: '>' not supported between instances of 'float' and 'NoneType'
+02:32:44 - - TRACE: Determined print status as: standby from print_stats
+02:32:45 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+02:36:06 - - TRACE: Determined print status as: standby from print_stats
+02:38:32 - - TRACE: Determined print status as: standby from print_stats
+02:39:00 - - TRACE: Determined print status as: printing from print_stats
+02:39:00 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+03:04:33 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -1094.0, 'headroom': -1088.4, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+03:05:19 - - TRACE: Determined print status as: complete from print_stats
+03:05:20 - DEBUG: ERCF Shutdown
+03:05:25 - DEBUG: No toolhead sensor detected, forcing 'home_to_extruder: 1'
+03:05:25 - DEBUG: Loaded persisted ERCF state, level: 2
+03:05:27 Warning: Error booting up ERCF: '>' not supported between instances of 'float' and 'NoneType'
+03:05:37 - - TRACE: Determined print status as: standby from print_stats
+03:05:38 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+03:06:01 - - TRACE: Determined print status as: standby from print_stats
+03:10:25 - - TRACE: Determined print status as: standby from print_stats
+03:18:43 - - TRACE: Determined print status as: standby from print_stats
+09:45:05 - DEBUG: ERCF Shutdown
+09:45:16 - DEBUG: No toolhead sensor detected, forcing 'home_to_extruder: 1'
+09:45:16 - DEBUG: Loaded persisted ERCF state, level: 2
+09:45:18 Warning: Error booting up ERCF: '>' not supported between instances of 'float' and 'NoneType'
+09:45:25 - - TRACE: Determined print status as: standby from print_stats
+09:45:26 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+09:50:16 - - TRACE: Determined print status as: standby from print_stats
+09:50:26 - - TRACE: Determined print status as: printing from print_stats
+09:50:26 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+10:38:55 - DEBUG: Disabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': -2787.2, 'headroom': -2781.8, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
+10:58:58 - - TRACE: Determined print status as: standby from print_stats
+11:05:18 - - TRACE: Determined print status as: standby from print_stats
+11:07:55 - - TRACE: Determined print status as: standby from print_stats
+11:10:26 - - TRACE: Determined print status as: printing from print_stats
+11:10:26 - DEBUG: Enabled encoder sensor. Status: {'encoder_pos': 0.0, 'detection_length': 10.0, 'min_headroom': 10.0, 'headroom': 15.0, 'desired_headroom': 5.0, 'detection_mode': 0, 'enabled': True}
