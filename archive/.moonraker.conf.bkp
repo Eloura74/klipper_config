@@ -29,32 +29,6 @@ trusted_clients =
 	192.168.1.102
 	192.168.1.103
 
-[power Led]
-type = homeassistant
-protocol = http
-address = 192.168.1.57
-port = 8123
-device = led_switchwire
-token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDNjNjY5OGIzNTU0ZTMwOTIxMmZiMTIwYTI4M2YwNSIsImlhdCI6MTY3OTQ5MjIzMSwiZXhwIjoxOTk0ODUyMjMxfQ.wj6xfRqjVNr-4tO-qUC9vUSnc58p-YdiJ43r1oTtrBo
-domain = light
-
-[wled lounge]
-type = http
-address = 176.191.159.161
-initial_red = 0.5
-initial_green = 0.4
-initial_blue = 0.3
-chain_count = 3
-
-[power smartthings_switch]
-type = smartthings
-address = api.smartthings.com
-protocol = https
-port = 443
-token = dc0af7ca-db0d-41f7-b535-1ac4dde328e5
-device = dc0af7ca-db0d-41f7-b535-1ac4dde328e5
-initial_state = on
-
 [update_manager CanBoot]
 type = git_repo
 path = ~/CanBoot
@@ -127,16 +101,6 @@ managed_services = klipper moonraker
 [announcements]
 subscriptions = 
 	mainsail
-
-[webcam PiZero]
-location = printer
-service = mjpegstreamer
-target_fps = 15
-stream_url = http://192.168.1.57/
-snapshot_url = http://192.168.1.57/
-flip_horizontal = False
-flip_vertical = False
-rotation = 0
 
 [timelapse]
 output_path = ~/timelapse/
